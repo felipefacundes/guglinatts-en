@@ -24,7 +24,7 @@ yes s | sh INSTALL.sh
 ##### Or manually:
 
 ``` 
-sudo cp guglinatts-en-generic.conf /etc/speech-dispatcher/modules/
+sudo cp guglina*generic.conf /etc/speech-dispatcher/modules/
 sudo cp speechd.conf /etc/speech-dispatcher/
 sudo cp googletts* /bin/
 sudo chmod +x /bin/googletts*
