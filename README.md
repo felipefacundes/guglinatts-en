@@ -52,12 +52,15 @@ sudo chmod +x /bin/googletts*
 
 #
 - **Installation by ArchLinux**
+
 ```
 sudo pacman -S espeak-ng speech-dispatcher orca onboard ffmpeg xsel libnotify python2-notify perl-libwww perl-www-mechanize perl-html-tree sox fmt lame perl-www-curl
 ```
+
 ```
 sudo pacman -U svox-pico-bin-1.0+git20130326-8-x86_64.pkg.tar.xz
 ```
+
 #
 - **By Debian and derivatives (Ubuntu...):**
   - If you do not have pico2wave in the repository.
@@ -79,29 +82,39 @@ sudo dpkg -i *.deb
 ### Finishing Installation
 
 - Close everything and kill the session:
+
 ```
 pkill -9 -u $USER
 ```
+
 - Start X and type in the terminal
+
 ```
 orca -s
 ```
+
 - On **the tab: "Voice"**.
 - Configure this way:
   - Speech system: **Speech Dispatcher**
-  - Speech synthesizer: **guglinatts-en**
-  - Character: **Standard voice for guglinatts (en)**
+  - Speech synthesizer: **guglina_en_tts**
+  - Character: **guglina_en_tts (en)**
 
 #
-### If the onboard is not booting, along with the system. Include in ~/.xinitrc
+### If the onboard and orca are not booting together with the system. Include in ~/.xinitrc
+
 ``` 
 onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0 &
+orca &
 ```     
+
 - Or
+
 ``` 
 cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
+cp /etc/xdg/autostart/orca-autostart.desktop ~/.config/autostart/
 ```
-### Enabling onboard is required, so that programs that have the accessibility feature, such as OKULAR, can work properly. Be sure to turn onboard! ;) ###
+
+### Enabling onboard and orca is required, so that programs that have the accessibility feature, such as OKULAR, can work properly. Be sure to turn onboard! ;) ###
 
 <br></br>
 
