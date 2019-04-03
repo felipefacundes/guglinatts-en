@@ -2,6 +2,9 @@
 
 Guglina TTS, special edition: in English (guglinatts-en), is a voice synthesizer originally designed for Brazilian Portuguese. Uses the Google Translate text-to-speech API. Read screens for the visually impaired. Transforms text into audio, allowing blind or low-vision people to access content displayed on the screen. Although the main target audience for text-to-speech conversion systems - such as Guglina TTS EN - is people with visual impairment, this type of program can be used by people with dyslexia and other reading disabilities, people with severe as well as by pre-literate children. In addition to being an assistive technology tool, voice synthesizers can still have educational and entertainment applications.
 It is under the aegis of the license:
+#
+
+**Obs**. The GuglinaTTS synthesizer uses Google Api, but can be used in offline mode. Do not worry about your Internet connection.
 ### GPLv3
 > Maintainer: Felipe Facundes
 ###### Site: https://brasiltts.wordpress.com/
