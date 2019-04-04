@@ -124,7 +124,7 @@ cp /etc/xdg/autostart/orca-autostart.desktop ~/.config/autostart/
 <br></br>
 
 ###### Guglina is an acronym of: Google + Regina. A tribute to Brazilian: Regina Bittar, responsible for Google's voice in Brazil.
-#### Licence: GPLv3 ####
+#### License: GPLv3 ####
 
 <br></br>
 
